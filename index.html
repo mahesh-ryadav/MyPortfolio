@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="border-radius">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="border-radius">
+      <div class="intro">
+        <div class="name">
+          <h1>Welcome to My Portfolio</h1>
+          <p>
+            Hi, I'm <span id="name">Mahesh Yadav</span>, an aspiring Software
+            Developer.
+          </p>
+        </div>
+        <div class="image"><img src="photo.png" alt="Your Photo" /></div>
+      </div>
+    </section>
+
+    <section id="about" class="border-radius">
+      <h2>About Me</h2>
+      <p class="about-content">
+        I am currently pursuing a Master of Computer Applications (MCA) with a
+        strong interest in software engineering. My academic journey has
+        equipped me with a solid foundation in computer science principles,
+        programming languages, and software development methodologies.
+      </p>
+      <p class="about-content">
+        I am particularly passionate about web development and am actively
+        enhancing my skills in front-end and back-end technologies. I enjoy
+        creating intuitive and dynamic web applications, exploring new
+        frameworks, and staying updated with the latest trends in the tech
+        industry.
+      </p>
+      <p class="about-content">
+        My goal is to leverage my knowledge and skills to contribute to
+        innovative projects that solve real-world problems. I am eager to
+        collaborate with like-minded professionals and continuously grow in the
+        ever-evolving field of software engineering.
+      </p>
+    </section>
+
+    <section id="projects" class="border-radius">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Project Title1</h3>
+          <img src="project-image.jpg" alt="Project Image" />
+          <p>Description of the project.</p>
+          <a href="#project">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Title2</h3>
+          <img src="project-image.jpg" alt="Project Image" />
+          <p>Description of the project.</p>
+          <a href="#project">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Title3</h3>
+          <img src="project-image.jpg" alt="Project Image" />
+          <p>Description of the project.</p>
+          <a href="#project">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="border-radius">
+      <h2>My Resume</h2>
+      <a href="resume.pdf" download ><p class="download-resume">Download</p></a>
+    </section>
+    <section id="contact" class="border-radius">
+      <h2>Contact</h2>
+      
+      <form
+        action="mailto:your-mahi234xp@gmail.com"
+        method="post"
+        enctype="text/plain"
+        class="border-radius"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section id="social">
+        <h1>Connect with Me</h1>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mahesh-ryadav/" target="_blank">
+                <img src="linkedIn.jpeg" alt="LinkedIn">
+            </a>
+            <a href="https://leetcode.com/mahesh_ryadav" target="_blank">
+                <img src="leetcode.jpeg" alt="LeetCode">
+            </a>
+            <a href="https://github.com/mahesh-ryadav" target="_blank">
+                <img src="github.jpeg" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <footer class="border-radius">
+      <p>&copy; 2024 Mahesh Yadav. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
